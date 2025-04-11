@@ -40,7 +40,6 @@
   border: 2px solid #ffffff;
 }
 
-
 @media only screen and (min-width: 1199px) and (max-width: 1396px) {
   .hr {
     width: 1144px;
@@ -165,4 +164,23 @@
     margin: auto;
     border: 2px solid #ffffff;
   }
+}
+
+/* ====================================================================================
+                                     START HERO SECTION
+======================================================================================= */
+
+.hero-conatiner {
+  display: flex;
+  justify-self: center;
+  padding: 201px 0 262px 0;
+}
+
+.hero-conatiner > h1 {
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  width: 751px;
+  color: #ffffff;
 }
