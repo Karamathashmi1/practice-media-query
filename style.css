@@ -250,11 +250,6 @@
   color: #141515;
 }
 
-.section-one-row div > span {
-  font-weight: 300;
-  font-size: 14px;
-}
-
 .section-one-row div:hover {
   color: #e03740;
   cursor: pointer;
@@ -279,4 +274,106 @@
 .section-one-row-two div:hover {
   color: #e03740;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 954px) {
+  .section-one-container {
+    margin: 112px 50px;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .section-one-container {
+    margin: 112px 40px;
+  }
+
+  .section-one-container h2 {
+    padding-bottom: 50px;
+    width: 300px;
+    margin: auto;
+  }
+
+  .section-one-row div {
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .section-one-row-two div {
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .section-one-row-two div > span {
+    font-weight: 300;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 577px) {
+  .section-one-container {
+    margin: 112px 20px;
+  }
+
+  .section-one-container h2 {
+    padding-bottom: 40px;
+    width: 300px;
+    margin: auto;
+  }
+
+  .section-one-row div {
+    font-size: 12px;
+  }
+
+  .section-one-row-two div {
+    font-size: 12px;
+  }
+
+  .section-one-row-two div > span {
+    font-weight: 300;
+    font-size: 8px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .section-one-container {
+    margin: 112px 10px;
+    gap: 16px;
+  }
+
+  .section-one-container h2 {
+    padding-bottom: 30px;
+    width: 260px;
+    margin: auto;
+  }
+
+  .section-one-row {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .section-one-row div {
+    font-weight: 500;
+    font-size: 18px;
+    color: #141515;
+  }
+
+  .section-one-row-two {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0;
+  }
+
+  .section-one-row-two div {
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .section-one-row-two div > span {
+    font-weight: 300;
+    font-size: 14px;
+  }
 }
