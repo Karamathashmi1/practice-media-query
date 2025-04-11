@@ -39,3 +39,130 @@
   margin: auto;
   border: 2px solid #ffffff;
 }
+
+
+@media only screen and (min-width: 1199px) and (max-width: 1396px) {
+  .hr {
+    width: 1144px;
+    margin: auto;
+    border: 2px solid #ffffff;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .hr {
+    width: 960px;
+    margin: auto;
+    border: 2px solid #ffffff;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-nav {
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hr {
+    width: 720px;
+    margin: auto;
+    border: 2px solid #ffffff;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-nav {
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hr {
+    width: 540px;
+    margin: auto;
+    border: 2px solid #ffffff;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 577px) {
+  .container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+  }
+
+  .navbar-nav {
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .btn-outline-light {
+    display: none;
+  }
+
+  .hr {
+    width: 447px;
+    margin: auto;
+    border: 2px solid #ffffff;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+  }
+
+  .navbar-nav {
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .btn-outline-light {
+    display: none;
+  }
+
+  .hr {
+    width: 347px;
+    margin: auto;
+    border: 2px solid #ffffff;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+  }
+
+  .navbar-nav {
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .btn-outline-light {
+    display: none;
+  }
+
+  .hr {
+    width: 287px;
+    margin: auto;
+    border: 2px solid #ffffff;
+  }
+}
