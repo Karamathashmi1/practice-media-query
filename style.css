@@ -184,3 +184,43 @@
   width: 751px;
   color: #ffffff;
 }
+
+@media only screen and (min-width: 650px) and (max-width: 768px) {
+  .hero-conatiner > h1 {
+    font-size: 55px;
+    line-height: 50px;
+    text-align: center;
+    width: 630px;
+    color: #ffffff;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 650px) {
+  .hero-conatiner > h1 {
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 551px;
+    color: #ffffff;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 577px) {
+  .hero-conatiner > h1 {
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 400px;
+    color: #ffffff;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .hero-conatiner > h1 {
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    width: 307px;
+    color: #ffffff;
+  }
+}
