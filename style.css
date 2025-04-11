@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url(./fonts/Roboto-VariableFont_wdth\wght.ttf);
+}
+
+/* ====================================================================================
+                             START HEADER SECTION
+======================================================================================= */
+
+.header-and-main {
+  background: url(./img/bg-img.svg) no-repeat center/cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0 16px 0;
+  /* font-family: "roboto"; */
+}
+
+.navbar-nav {
+  gap: 40px;
+}
+
+.bi-arrow-right {
+  padding-left: 4px;
+  width: 20px;
+}
+
+.hr {
+  width: 1320px;
+  margin: auto;
+  border: 2px solid #ffffff;
+}
