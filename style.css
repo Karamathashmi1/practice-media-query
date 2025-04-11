@@ -224,3 +224,59 @@
     color: #ffffff;
   }
 }
+
+/* ====================================================================================
+                                     START SECTION ONE
+======================================================================================= */
+
+.section-one-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 112px 144px;
+}
+
+.section-one-container h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #141515;
+  padding-bottom: 64px;
+}
+
+.section-one-row div {
+  font-weight: 500;
+  font-size: 18px;
+  color: #141515;
+}
+
+.section-one-row div > span {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.section-one-row div:hover {
+  color: #e03740;
+  cursor: pointer;
+}
+
+.section-one-row-two {
+  display: flex;
+  align-items: flex-end;
+}
+
+.section-one-row-two div {
+  font-weight: 500;
+  font-size: 18px;
+  color: #141515;
+}
+
+.section-one-row-two div > span {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.section-one-row-two div:hover {
+  color: #e03740;
+  cursor: pointer;
+}
