@@ -17,7 +17,7 @@
   background: url(./img/bg-img.svg) no-repeat center/cover;
 }
 
-.container {
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -503,4 +503,40 @@
     width: 245px;
     margin: auto;
   }
+}
+
+/* ====================================================================================
+                                      FOOTER
+======================================================================================= */
+
+.footer-container {
+  padding: 72px 85px 72px 200px;
+}
+
+.footer-main-row {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.footer-main-row-col-one {
+  padding: 0;
+}
+
+.footerlogo {
+  padding: 0;
+  width: auto;
+}
+
+.col-md-5 {
+  padding: 0 0 0 32px;
+}
+
+.footer-nav-heading {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footer-about-link {
+  padding: 8px 16px 8px 0;
 }
